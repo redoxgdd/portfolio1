@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="images/dark1.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- top nav -->
+    <!-- <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul> -->
+<!-- ----------- -->
+<!-- slide nav -->
+
+<div class="hnav d-flex" style="justify-content: space-between;">
+  <h1 class="mt-4 text-success" style="margin-left:10px;">Hi <span class="text-primary">there</span> <span class="text-muted">!</span> </h1>
+  
+  <div class=" w-90 mb-3 mt-4  d-flex flex-row-reverse"  > 
+    <button class="btn btn-light mb-4  dsh curp" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="margin-right: 10px;">
+      <div class="dash"></div>
+      <div class="dash"></div>
+      <div class="dash"></div>
+    </button>
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Go To</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      <div class="pages">
+            
+        <p ><div class="active">Home</div></p>
+        <a href="./htmls/about.html" ><div class="page">About</div></a>
+        <a href="./htmls/contact.html" ><div class="page">Contact</div></a>
+                      
+                  </div>
+    </div>
+
+  </div>
+</div>
+<!-- ------------- -->
+<!-- about carousel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="dark4.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>My name is <span class="text-success" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Paul</span></p>
+          <p><span class="text-muted" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 80%;">Check Second Slide</span></p>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="dark5.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>I am a <span class="text-success" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Developer Web and app developer</span> </h5>
+          <p> and a <span class="text-success" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Programmer</span></p>
+          <p><span class="text-muted " style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 80%;">Check Last Slide</span></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="dark6.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>I am also a <span class="text-info" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Ethical Hacker</span></h5>
+          <a href="#"><button class="btn btn-primary">know more</button></a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- ---------- -->
+<div class="for-mobile" style="text-align: center;">
+<h5 class="mt-4" >
+  
+  My name is <span class="text-success" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Paul
+  </span> 
+  <br>
+  I am a <span class="text-primary" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Developer 
+    <br>
+    <span class="text-muted">A</span> Web and app developer.
+  </span> 
+</h5>
+          <p> and also a <span class="text-success" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Programmer</span></p>
+          <a href="#"><button class="btn btn-primary">know more</button></a>
+
+
+</div>
+
+
+          <main>
+            <div class="container py-4">
+              <header class="pb-3 mb-4 w-100 border-bottom">
+                <a href="project.html" class="d-flex align-items-center text-dark text-decoration-none">
+                 
+                  <span class="border-top border-dark text-muted w-100" style="text-align: center; font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; zoom: 150%;">Projects</span>
+                </a>
+              </header>
+          
+              <div class="p-5 mb-4 bg-light rounded-3">
+                <div class="container-fluid py-5">
+                  <h1 class="display-5 fw-bold">Project Title</h1>
+                  <section class="project-image btn-light w-90 mb-4 mt-4"></section>
+
+                  <h4 style="text-align: center; text-decoration: underline;">Description</h4>
+                  <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nemo, amet excepturi dolore officiis provident harum placeat recusandae reiciendis voluptates!</p>
+                  <button class="btn btn-primary btn-lg" type="button">view Demo</button>
+          <a href="project.html"><button class="btn btn-light">see other projects</button></a>
+
+                </div>
+              </div>
+          
+              <!-- <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                  <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h2>Change the background</h2>
+                    <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                    <button class="btn btn-outline-light" type="button">Example button</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="h-100 p-5 bg-light border rounded-3">
+                    <h2>Add borders</h2>
+                    <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+                    <button class="btn btn-outline-secondary" type="button">Example button</button>
+                  </div>
+                </div>
+              </div> -->
+          
+ 
+            </div>
+          </main>
+<footer>
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <p class="center">&copy; 2022 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </div>
+</footer>
+
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+      <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
